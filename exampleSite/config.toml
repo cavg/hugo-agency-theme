@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Mi empresa"
+  description = "Frase descriptiva de mi empresa"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -45,14 +45,14 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Mi Negocio"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
+    services = "Servicios"
     portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    about = "Sobre nosotros"
+    team = "Nuestro equipo"
+    contact = "Contacto"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -65,45 +65,45 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
 
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "Mi Empresa"
+    subtitle = "Bienvenida a mis clientes"
+    buttonText = "Más info"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Servicios"
+    subtitle = "¿Qué hacemos por usted?"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Servicio 1"
+      description = "Este es un texto de ejemplo para describir el servicio."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Servicio 2"
+      description = "Este es un texto de ejemplo para describir el servicio."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Servicio 4"
+      description = "Este es un texto de ejemplo para describir el servicio."
       url = "#"
 
   # Portfolio section
@@ -114,7 +114,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Demuestre cuales han sido sus trabajos y resultados"
 
     [params.portfolio.modal]
       client = "Client"
@@ -126,9 +126,9 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "Sobre nosotros"
+    subtitle = "Cuéntele a sus visitantes, quienes son"
+    endpoint = "Se parte de nuestra historía"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -136,26 +136,14 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "1.jpg"
       date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      title = "El comienzo de su negocio"
+      description = "Como inicio su negocio, primeros pasos que lo llevaron a donde está"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "2011-03"
+      title = "Hito importante"
+      description = "El siguiente hito relevante en la historía de su empresa"
 
 
   # Team section
@@ -163,9 +151,9 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Nuestro increible equipo"
+    subtitle = "Equipo de trabajo"
+    description = "Creemos en la sinergia de un equipo de trabajo altamente cohesionado"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -175,15 +163,8 @@ googleAnalytics = ""
       name = "Kay Garland"
       position = "Lead Designer"
       reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      # bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX."
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -240,9 +221,9 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    title = "Contactenos"
+    subtitle  = "Escríbanos y le responderemos a la brevedad"
+    buttonText = "Enviar mensaje"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -270,19 +251,19 @@ She worked at Pied Piper for years until they went belly up."""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
+      text = "Su nombre *"
       warning = "Please enter your name."
 
     [params.contact.form.email]
-      text = "Your Email *"
+      text = "Su correo *"
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
+      text = "Su teléfono *"
       warning = "Please enter your phone number."
 
     [params.contact.form.message]
-      text = "Your Message *"
+      text = "Su mensaje *"
       warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
@@ -297,7 +278,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Sitio alojado por Leantech SpA"
 
     [[params.footer.social]]
       icon = "fa-twitter"
@@ -311,10 +292,10 @@ She worked at Pied Piper for years until they went belly up."""
       icon = "fa-linkedin"
       link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    #[[params.footer.quicklinks]]
+    #  text = "Privacy Policy"
+    #  link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    #[[params.footer.quicklinks]]
+    #  text = "Terms of Use"
+    #  link = "#"
